@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  background: #4A00E0;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#resultado {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.erro {
+  color: red;
+}
+
+ul {
+    list-style-type: none; /* Remove os pontos/marcadores */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0 auto; /* Centraliza a lista horizontalmente */
+    text-align: center; /* Centraliza o texto dos itens */
+}
+
+li {
+    text-align: center; /* Centraliza o texto dentro de cada item */
+    padding: 5px 0; /* Adiciona um pouco de espaçamento entre os itens (opcional) */
+    font-style: bold;
+}
